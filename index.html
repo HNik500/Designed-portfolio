@@ -5,35 +5,50 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Portfolio Website of Nikhil </title>
     <link rel="stylesheet" href="./css/style.css">
+    <style>
+      header>a{
+        text-decoration: none;
+        color: green;
+        font-size: 30px;
+      }
+      h3 + p{
+        font-size: 20px;
+      }
+    </style>
 </head>
 <body>
   
-    <header>
-      <a id="up">
-        Name: Nikhil Hazari 
-      </a>
+    <header style="display: flex; align-items: center;">
+    
+        <a id="up" href="#">
+          Nikhil Hazari 
+        </a>
+        <nav >
+            <ul style="display: flex; gap: 20px;"> <br>
+        
+              <li>
+                <a href="#home">home</a> 
+               </li>
+              <li>
+                <a href="#about">about</a> 
+               </li>
+                    <li>
+                      <a href="#work">work</a> 
+                    </li>
+                    <li>
+                      <a href="#resume">resume</a>
+                    </li>
+                    <li> 
+                      <a href="#contact">contacts</a> 
+                    </li>
+            </ul>
+        </nav>
+        <div>
+          <a href="">child</a>
+
+        </div>
     </header>
     <main>
-    <nav>
-        <ul> <br>
-    
-          <li>
-            <a href="#home">home</a> 
-           </li>
-          <li>
-            <a href="#about">about</a> 
-           </li>
-                <li>
-                  <a href="#work">work</a> 
-                </li>
-                <li>
-                  <a href="#resume">resume</a>
-                </li>
-                <li> 
-                  <a href="#contact">contacts</a> 
-                </li>
-        </ul>
-    </nav>
     <section>
       <a>
         <p id="home">
@@ -77,10 +92,10 @@ When I'm not immersed in the world of Software Dev, you can often find me watchi
 </a>
 </section>
 <section>
-  <a>
-     <p id="work">
 
-     <h3>  <b> Work Experience </b> <br> </h3>
+  <h3 id="work">  <b> Work Experience </b> <br> </h3>
+     <p >
+
 Welcome to my Work Experience section, where I invite you to explore the projects and internships that have shaped my journey as a budding software developer. From coding challenges to collaborative ventures, each experience has been a stepping stone in my quest for knowledge and mastery of the craft.
 
 Internships:
@@ -109,7 +124,7 @@ As I continue on my journey as a software development student, I'm excited to ex
 
 Thank you for taking the time to explore my Work Experience section. I hope you've gained insight into my journey as a software development student and the passion and dedication I bring to every project. If you'd like to learn more or discuss potential collaborations, feel free to reach out—I'd love to connect with you.
 </p>
-</a>
+
 </section>
 
 <section>
